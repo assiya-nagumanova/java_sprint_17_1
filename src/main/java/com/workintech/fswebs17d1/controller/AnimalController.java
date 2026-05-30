@@ -16,7 +16,7 @@ public Map<Integer, Animal> animals;
 
 @PostConstruct
 public void LoadAll(){
-    System.out.println("Çalıştı");
+    System.out.println("Çalıştı.");
     this.animals=new HashMap<>();
     this.animals.put(1,new Animal(1,"maymun"));
 }
